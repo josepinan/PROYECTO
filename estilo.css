@@ -1,0 +1,103 @@
+body {
+    background-color: #faf9fc;
+    color: #17151C;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+header {
+    background-color: #FFFFFF;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.identidad h1 {
+    font-size: 28px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+.identidad p {
+    font-size: 13px;
+    color: #777481;
+    margin: 3px 0 0;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+}
+nav a {
+    color: #34313b;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0,3s;
+}
+nav a:hover {
+    color: #7138d8;
+}
+.hero {
+    padding: 80px 9%;
+    background-color: #f3edfc;
+}
+.hero h2 {
+    font-size: 58px;
+    color: #17151C;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 19px;
+    color: #777481;
+    margin-bottom: 25px;
+}
+.boton {
+    display: inline-block;
+    background-color: #7138d8;
+    color:#FFFFFF;
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 30px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.boton:hover {
+    background-color: #5725b5;
+}
+.seccion-emociones {
+    padding: 60px 9%;
+}
+.seccion-emociones h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.seccion-emociones > p {
+    color: #777481;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.rejilla-emociones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.tarjeta-emocion {
+    background-color: #FFFFFF;
+    padding: 25px;
+    border: 1px solid #E9E5EF;
+    border-radius: 16px;
+    flex: 0 1 30%;
+    transition: transform 0.3s;
+}
+.tarjeta-emocion h3 {
+    font-size: 22px;
+    color: #17151C;
+    margin-bottom: 8px;
+}
+
+.tarjeta-emocion p {
+    font-size: 15px;
+    color: #777481;
+}
+.tarjeta-emocion:hover {
+    transform: translateY(-5px);
+}
