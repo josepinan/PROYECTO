@@ -85,7 +85,6 @@ nav a:hover {
     padding: 25px;
     border: 1px solid #E9E5EF;
     border-radius: 16px;
-    flex: 0 1 30%;
     transition: transform 0.3s;
 }
 .tarjeta-emocion h3 {
@@ -100,4 +99,11 @@ nav a:hover {
 }
 .tarjeta-emocion:hover {
     transform: translateY(-5px);
+    border-color: #d8c8f0;
+    box-shadow: 0 8px 25px rgba(113, 56, 216, 0.08);
+}
+.enlace-tarjeta {
+    flex: 0 1 30%;
+    text-decoration: none;
+    color: inherit;
 }
