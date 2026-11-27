@@ -107,3 +107,56 @@ nav a:hover {
     text-decoration: none;
     color: inherit;
 }
+.seccion-canciones {
+    padding: 60px 9%;
+}
+.seccion-canciones h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.rejilla-canciones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.tarjeta-cancion {
+    background-color: #FFFFFF;
+    padding: 25px;
+    border: 1px solid #E9E5EF;
+    border-radius: 16px;
+    flex: 1 1 250px;
+    transition: transform 0.3s;
+}
+.tarjeta-cancion:hover {
+    transform: translateY(-5px);
+    border-color: #d8c8f0;
+    box-shadow: 0 10px 30px rgba(113, 56, 216, 0.08);
+}
+.tarjeta-cancion h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.tarjeta-cancion p{
+    color: #777481;
+    margin-bottom: 18px;
+}
+.tarjeta-cancion a {
+    color: #7138d8;
+    text-decoration: none;
+    font-size: 14px;
+}
+.tarjeta-cancion a:hover {
+    text-decoration: underline;
+}
+.tarjeta-cancion img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 18px;
+}
+.tarjeta-cancion .album {
+    font-size: 13px;
+    color: #9994A3;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
